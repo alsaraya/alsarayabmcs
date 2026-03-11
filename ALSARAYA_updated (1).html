@@ -792,10 +792,8 @@
   <!-- FORM — powered by Formspree -->
   <div class="contact-form reveal reveal-delay-2">
     <div class="form-title" data-en="Request a Free Quote" data-ar="طلب عرض سعر مجاني">Request a Free Quote</div>
-    <form id="enquiryForm" action="https://formspree.io/f/xzzbnkzn" method="POST" novalidate>
-      <input type="hidden" name="_replyto" value="info@alsarayabmcs.com"/>
-      <input type="hidden" name="_subject" value="New Enquiry from Al Saraya Website"/>
-      <div class="form-row">
+    <<form id="enquiryForm" name="enquiry" method="POST" data-netlify="true" novalidate>
+        <div class="form-row">
         <div class="form-group"><label data-en="First Name" data-ar="الاسم الأول">First Name</label><input type="text" name="firstName" placeholder="John" data-placeholder-en="John" data-placeholder-ar="محمد" required/></div>
         <div class="form-group"><label data-en="Last Name" data-ar="اسم العائلة">Last Name</label><input type="text" name="lastName" placeholder="Smith" data-placeholder-en="Smith" data-placeholder-ar="الأحمدي" required/></div>
       </div>
